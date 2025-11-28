@@ -13,7 +13,7 @@ This repository documents the workflow used to clean, analyze, and visualize a c
 | `responses.csv`, `cleaned_responses.csv` | Raw and cleaned respondent-level data. | 🚫 (keep private) |
 | `Gatundu_South_Opinion_Pulse.docx`, `client_email_draft.txt`, `client_presentation_outline.md` | Client-facing materials. | 🚫 (keep private) |
 
-The `.gitignore` ensures sensitive files stay out of Git history. Double-check before pushing that no CSVs or client documents are being committed.
+
 
 ## Getting Started
 

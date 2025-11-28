@@ -47,8 +47,8 @@ This repository documents the workflow used to clean, analyze, and visualize a c
 - **No raw PII in Git**: respondent-level data, contact info, and qualitative free text stay out of version control. Store them offline or in a secure data room.  
 - **Aggregation-first sharing**: only publish summary tables, percentages, and charts. If sharing tabular data, aggregate to ward/segment level and remove rare attribute combinations that could re-identify individuals.  
 - **Notebook hygiene**: scrub preview cells (e.g., `head()`) that might show original responses before committing. Replace with mocked samples if needed.  
-- **Secrets & configs**: keep API keys or private paths in a `.env` that remains ignored. Provide `.env.example` if collaborators need variable names.  
-- **Client deliverables**: notes, briefs, and decks often contain sensitive commentary—track them locally but exclude from Git (already handled in `.gitignore`).
+- **Secrets & configs**: keep API keys or private paths in a `.env` that remains ignored.   
+- **Client deliverables**: notes, briefs, and decks often contain sensitive commentary—track them locally but exclude from Git 
 
 
 

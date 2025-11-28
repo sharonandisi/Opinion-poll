@@ -1,0 +1,19 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+
+# Sensitive client deliverables
+responses.csv
+cleaned_responses.csv
+Gatundu_South_Opinion_Pulse.docx
+client_email_draft.txt
+client_presentation_outline.md
+
+# Local configs / secrets
+.env
+*.env
+
+# Generated assets
+figures/*.tmp
+build/
+
